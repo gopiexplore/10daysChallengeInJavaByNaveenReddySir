@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class Main {
 //        System.out.println(p);
         System.out.println("==============================================");
         System.out.println("Search Particular place");
-        List<Product> prods=service.getProductsWithPlace("Black Table");
+        List<Product> prods=service.getProductsWithPlace("Brown Drawer");
         for(Product product:prods){
             System.out.println(product);
         }
